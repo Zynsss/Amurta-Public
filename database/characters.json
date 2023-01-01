@@ -1,0 +1,157 @@
+{
+    "Amber" : {
+        "Pyro DPS": [[["ATK%", "EM"],["Pyro DMG%"],["CDMG%"]],["CDMG%", "ATK%", "EM", "ER%"],["Wanderer's Troupe", "Crimson Witch of", "Crimson Witch of Flames"],["4-set Wanderer's Troupe", "4-set Crimson Witch of Flames"],["Amos' Bow", "Prototype Crescent"]],
+        "Sub-DPS": [[["ER%", "ATK%"],["Pyro DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Elegy for the End", "Favonius Warbow"]]
+    },
+    "Xiangling" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame"],["4-set Pale Flame"],["Primordial Jade-Winged Spear", "Crescent Pike"]],
+        "Sub-DPS": [[["ER%", "ATK%", "EM"],["Pyro DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Emblem of", "Emblem of Severed Fate", "Crimson Witch of", "Crimson Witch of Flames"],["4-set Emblem of Severed Fate", "4-set Crimson Witch of Flames"],["Staff of Homa", "Dragon's Bane"]]
+    },
+    "Bennett" : {
+        "Pyro DPS": [[["ATK%", "EM"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "EM", "ATK%"],["Crimson Witch of", "Crimson Witch of Flames"],["4-set Crimson Witch of Flames"],["Mistsplitter Reforged", "Iron Sting (R5)"]],
+        "Sub-DPS": [[["ER%", "ATK%"],["Pyro DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Noblesse Oblige", "Crimson Witch of", "Crimson Witch of Flames"],["4-set Noblesse Oblige", "4-set Crimson Witch of Flames"],["Mistsplitter Reforged", "The Alley Flash"]],
+        "Support": [[["HP%, ER%"],["HP%"],["HP%", "HB"]],["ER%", "HP%", "HP"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Mistsplitter Reforged", "The Alley Flash"]]
+    },
+    "Xinyan" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame", "Bloodstained Chivalry", "Retracing Bolide"],["2-set Pale Flame + 2-set Bloodstained Chivalry", "4-set Retracing Bolide"],["Skyward Pride", "Serpent Spine", "Snow-Tombed Starsilver"]],
+        "Sub-DPS": [[["DEF%", "ER%"],["DEF%", "Physical DMG%"],["DEF%"]],["DEF%", "ER%"],["Noblesse Oblige", "Bloodstained Chivalry", "Pale Flame"],["4-set Noblesse Oblige", "2-set Noblesse Oblige + 2-set 25% PHYS"],["Sacrificial Greatsword"]],
+        "Support": [[["DEF%", "ER%"],["DEF%"],["DEF%"]],["DEF%", "ER%"],["Tenacity of the", "Tenacity of the Millelith"],["4-set Tenacity of the Millelith"],["Sacrificial Greatsword"]]
+    },
+    "Yanfei" : {
+        "Pyro DPS": [[["ATK%", "EM"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Crimson Witch of", "Crimson Witch of Flames", "Wanderer's Troupe"],["4-set Crimson Witch of Flames", "4-set Wanderer's Troupe"],["Skyward Atlas `or` Memory of Dust", "The Widsith (R5)"]]
+    },
+    "Diluc" : {
+        "Pyro DPS": [[["ATK%", "EM"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Crimson Witch of", "Crimson Witch of Flames"],["4-set Crimson Witch of Flames"],["Wolf's Gravestone", "Serpent Spine", "Blackcliff Slasher"]]
+    },
+    "Klee" : {
+        "Pyro DPS": [[["ATK%", "EM"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Crimson Witch of", "Crimson Witch of Flames", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence", "Lavawalker's Epiphany"],["2-set Crimson Witch of Flames + 2-set 18% ATK", "4-set Lavawalker's Epiphany"],["Skyward Atlas `or` Memory of Dust", "Dodoco Tales (R5)"]]
+    },
+    "Hu Tao" : {
+        "Pyro DPS": [[["HP%", "EM"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "HP%", "EM"],["Crimson Witch of", "Crimson Witch of Flames", "Shimenawa", "Shimenawa's Reminiscence"],["4-set Crimson Witch of Flames", "4-set Shimenawa's Reminiscence"],["Staff of Homa", "Dragon's Bane"]]
+    },
+    "Yoimiya" : {
+        "Pyro DPS": [[["ATK%"],["Pyro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Crimson Witch of", "Crimson Witch of Flames", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Crimson Witch of Flames + 2-set 18% ATK", "4-set Shimenawa's Reminiscence"],["Thundering Pulse", "Rust"]]
+    },
+    "Fischl" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%", "Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame"],["4-set Pale Flame"],["Thundering Pulse", "Viridescent Hunt"]],
+        "Support": [[["ATK%"],["Electro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Gladiator's Finale", "Thundering Fury", "Shimenawa", "Shimenawa's Reminiscence", "Thundersoother"],["2-set Thundering Fury + 2-set 18% ATK", "4-set Thundersoother"],["Thundering Pulse", "Alley Hunter (R5)"]]
+    },
+    "Beidou" : {
+        "Electro DPS": [[["ATK%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Thundering Fury", "Noblesse Oblige", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Thundering Fury + 2-set Noblesse/18% ATK"],["Wolf's Gravestone", "Serpent Spine", "Lithic Blade"]],
+        "Sub-DPS": [[["ATK%", "ER%"],["Electro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Emblem of", "Emblem of Severed Fate"],["4-set Emblem of Severed Fate"],["Wolf's Gravestone", "Serpent Spine", "Lithic Blade"]]
+    },
+    "Lisa" : {
+        "Electro DPS": [[["ATK%", "ER%", "EM"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Thundering Fury", "Thundersoother"],["4-set Thundering Fury", "4-set Thundersoother"],["Skyward Atlas", "The Widsith"]],
+        "EM DPS": [[["EM"],["EM"],["EM"]],["EM", "ER%", "ATK%"],["Thundering Fury"],["4-set Thundering Fury"],["Sacrificial Fragments"]],
+        "Sub-DPS": [[["ATK%", "ER%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Thundering Fury", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence", "Noblesse Oblige"],["2-set Thundering Fury + 2-set 18% ATK", "2-set Thundering Fury + 2-set Noblesse Oblige"],["Skyward Atlas", "The Widsith"]]
+    },
+    "Razor" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame"],["4-set Pale Flame"],["Wolf's Gravestone", "Serpent Spine", "Lithic Blade"]]
+    },
+    "Electro Traveler" : {
+        "Sub-DPS": [[["ER%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Favonius Sword"]]
+    },
+    "Keqing" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%"],["Pale Flame"],["4-set Pale Flame"],["Aquila Favonia", "Prototype Rancour (R3)"]],
+        "Electro DPS": [[["ATK%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Thundering Fury", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence", "Thundersoother"],["2-set Thundering Fury + 2-set 18% ATK", "4-set Thundersoother"],["Mistsplitter Reforged", "The Black Sword", "Lion's Roar"]]
+    },
+    "Sara" : {
+        "Sub-DPS (**+**)": [[["ATK%", "ER%"],["Electro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Thundering Fury", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Thundering Fury + 2-set 18% ATK"],["Skyward Harp", "Viridescent Hunt", "Hamayumi"]],
+        "Support (**+**)": [[["ATK%", "ER%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Elegy for the End", "Viridescent Hunt", "Favonius Warbow"]]
+    },
+    "Raiden Shogun" : {
+        "Electro DPS (**+**)": [[["ATK%", "ER%"],["Electro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Thundering Fury", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Thundering Fury + 2-set 18% ATK"],["Grasscutter's Light", "The Catch"]],
+        "Sub-DPS (**+**)": [[["ATK%", "ER%"],["Electro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Emblem of", "Emblem of Severed Fate"],["4-set Emblem of Severed Fate"],["Grasscutter's Light", "The Catch"]]
+    },
+    "Xingqiu" : {
+        "Sub-DPS": [[["ER%", "ATK%"],["Hydro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Emblem of", "Emblem of Severed Fate"],["4-set Emblem of Severed Fate"],["Sacrificial Sword"]]
+    },
+    "Barbara" : {
+        "Hydro DPS": [[["ATK%"],["Hydro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Shimenawa", "Shimenawa's Reminiscence", "Heart of Depth"],["4-set Shimenawa's Reminiscence", "4-set Heart of Depth"],["Skyward Atlas", "The Widsith"]],
+        "Support": [[["ER%", "HP%"],["HP%"],["HB"]],["HP%", "ER%", "HP"],["Maiden Beloved"],["4-set Maiden Beloved"],["Thrilling Tales of Dragon Slayers"]]
+    },
+    "Tartaglia" : {
+        "Hydro DPS": [[["ATK%"],["Hydro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Heart of Depth"],["4-set Heart of Depth"],["Thundering Pulse", "Viridescent Hunt"]],
+        "Sub-DPS": [[["ATK%", "EM"],["HYdro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "EM"],["Noblesse Oblige", "Heart of Depth"],["2-set heart of Depth + 2-set Nobless Oblige"],["The Stringless"]]
+    },
+    "Mona" : {
+        "Hydro DPS": [[["ATK%"],["Hydro DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Heart of Depth"],["4-set Heart of Depth"],["Skyward Atlas", "The Widsith"]],
+        "Sub-DPS": [[["ATK%", "EM", "ER%"],["Hydro DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Emblem of", "Emblem of Severed Fate"],["4-set Emblem of Severed Fate"],["The Widsith"]],
+        "Freeze Support": [[["ER%", "ATK%"],["Hydro DMG%", "ATK%"],["CR%"]],["ER%","CR%","ATK%"],["Noblesse Oblige", "Tenacity of the", "Tenacity of the Millelith"],["4-set Noblesse Oblige", "4-set Tenacity of the Millelith"],["Thrilling Tales of Dragon Slayer"]]
+    },
+    "Diona" : {
+        "Support": [[["ER%", "HP%"],["HP%"],["HP%", "HB"]],["HP%", "ER%", "HP"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Sacrificial Bow"]]
+    },
+    "Chongyun" : {
+        "Sub-DPS": [[["ATK%", "ER%", "EM"],["Cryo DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "EM"],["Noblesse Oblige", "Blizzard Strayer", "Emblem of", "Emblem of Severed Fate"],["2-set Noblesse Oblige + 2-set Blizzard Strayer", "4-set Emblem of Severed Fate"],["Wolf's Gravestone", "Serpent Spine", "Lithic Blade"]]
+    },
+    "Kaeya" : {
+        "Cryo DPS": [[["ATK%"],["Cryo DMG%"],["CDMG%"]],["CDMG%", "ATK%", "ER%", "CR%"],["Blizzard Strayer"],["4-set Blizzard Strayer"],["Mistsplitter Reforged", "Blackcliff Longsword"]],
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ATK"],["Pale Flame", "Bloodstained Chivalry"],["2-set Pale Flame + 2-set Bloodstained Chivalry"],["Aquila Favonia", "Prototype Rancour"]],
+        "Sub-DPS": [[["ATK%", "ER%"],["Cryo DMG%"],["CDMG%", "CR%"]],["ER%", "CDMG%", "CR%", "ATK%"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Skyward Blade", "Festering Desire"]]
+    },
+    "Rosaria" : {
+        "Cryo DPS": [[["ATK%"],["Cryo DMG%"],["CDMG%"]],["CDMG%", "ATK%", "ER%", "CR%"],["Blizzard Strayer", "Gladiator's Finale"],["4-set Blizzard Strayer", "4-set Gladiator's Finale"],["Primordial Jade-Winged Spear", "Blackcliff Pole"]],
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame", "Bloodstained Chivalry"],["2-set Pale Flame + 2-set Bloodstained Chivalry"],["Primordial Jade-Winged Spear", "Crescent Pike"]],
+        "Sub-DPS": [[["ATK%", "ER%"],["Cryo DMG%"],["CDMG%", "CR%"]],["CR%", "EM", "ER%", "CDMG%"],["Noblesse Oblige"],["4-set Noblesse Oblige"],["Staff of Homa", "Deathmatch"]]
+    },
+    "Qiqi" : {
+        "Support": [[["ATK%", "ER%"],["ATK%", "Cryo DMG%"],["ATK%", "HB"]],["ATK%", "ER%", "ATK"],["Tenacity of the", "Tenacity of the Millelith", "Maiden Beloved"],["4-set Tenacity of the Millelith", "4-set Maiden Beloved"],["Sacrificial Sword"]]
+    },
+    "Ganyu" : {
+        "Cryo DPS (Melt)": [[["ATK%", "EM"],["Cryo DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "EM"],["Shimenawa", "Shimenawa's Reminiscence", "Wanderer's Troupe"],["4-set Shimenawa's Reminiscence", "4-set Wanderer's Troupe"],["Amos' Bow", "Prototype Crescent"]],
+        "Cryo DPS (Freeze)": [[["ATK%"],["Cryo DMG%"],["CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Blizzard Strayer"],["4-set Blizzard Strayer"],["Amos' Bow", "Prototype Crescent"]],
+        "Sub-DPS": [[["ATK%", "ER%"],["Cryo DMG%"],["CR%", "CDMG%"]],["ER%", "CDMG%", "CR%", "EM"],["Noblesse Oblige", "Blizzard Strayer", "Emblem of", "Emblem of Severed Fate"],["2-set Noblesse Oblige + 2-set Blizzard Strayer", "4-set Emblem of Severed Fate"],["Thundering Pulse", "Alley Hunter"]]
+    },
+    "Eula" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ER%", "ATK%"],["Pale Flame"],["4-set Pale Flame"],["Song of Broken Pines", "Serpent Spine", "Blackcliff Slasher"]]
+    },
+    "Ayaka" : {
+        "Cryo DPS": [[["ATK%"],["Cryo DMG%"],["CDMG%", "ATK%"]],["CDMG%", "ATK%", "ER%", "CR%"],["Blizzard Strayer"],["4-set Blizzard Strayer"],["Mistsplitter Reforged", "The Black Sword `or` Amenoma Kageuchi `or` The Flute `or` Blackcliff Longsword"]]
+    },
+    "Sucrose" : {
+        "EM Support": [[["EM"],["EM"],["EM"]],["EM", "CR%", "CDMG%", "ATK%"],["Viridescent Venerer"],["4-set Viridescent Venerer"],["Sacrificial Fragments"]]
+    },
+    "Sayu" : {
+        "Support": [[["EM", "ER%"],["EM", "ATK%"],["EM", "HB"]],["ER%", "EM", "ATK%"],["Viridescent Venerer", "Noblesse Oblige"],["4-set Viridescent Venerer", "4-set Noblesse Oblige"],["Wolf's Gravestone", "Sacrificial Greatsword"]]
+    },
+    "Anemo Traveler" : {
+        "Anemo DPS": [[["ATK%", "ER%"],["Anemo DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Viridescent Venerer"],["4-set Viridescent Venerer"],["Primordial Jade Cutter", "Festering Desire"]],
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ATK"],["Pale Flame"],["4-set Pale Flame"],["Aquila Favonia", "Blackcliff Longsword"]]
+    },
+    "Jean" : {
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame", "Bloodstained Chivalry", "Gladiator's Finale"],["2-set Pale Flame + 2-set Bloodstained Chivalry", "4-set Gladiator's Finale"],["Aquila Favonia", "Blackcliff Longsword"]],
+        "Sub-DPS": [[["ER%", "ATK%"],["Anemo DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Viridescent Venerer", "Noblesse Oblige"],["4-set Viridescent Venerer", "4-set Noblesse Oblige"],["Primordial Jade Cutter", "Amenoma Kageuchi"]],
+        "Support" : [[["ER%", "ATK%"],["ATK%"],["ATK%"]],["ATK%", "ER%"],["Viridescent Venerer"],["4-set Viridescent Venerer"],["Summit Shaper", "Amenoma Kageuchi"]]
+    },
+    "Venti" : {
+        "EM DPS": [[["EM"],["EM"],["EM"]],["EM", "ER%", "ATK%"],["Viridescent Venerer", "Noblesse Oblige"],["4-set Viridescent Venerer", "4-set Noblesse Oblige"],["The Stringless (R4)"]],
+        "Sub-DPS": [[["ATK%"],["Anemo DMG%"],["CR%", "CDMG%"]],["CDMG%", "CR%", "EM", "ER%"],["Viridescent Venerer", "Noblesse Oblige"],["4-set Viridescent Venerer", "4-set Noblesse Oblige"],["The Stringless (R4)"]]
+    },
+    "Xiao" : {
+        "Anemo DPS": [[["ATK%"],["Anemo DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Viridescent Venerer", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Viridescent Venerer + 2-set 18% ATK"],["Primordial Jade Winged-Spear", "Lithic Spear"]]
+    },
+    "Kazuha" : {
+        "EM Support": [[["EM", "ER%"],["EM"],["EM"]],["EM", "ER%", "ATK%"],["Viridescent Venerer"],["4-set Viridescent Venerer"],["Freedom Sworn", "Sacrificial Sword `or` Favonius Sword"]]
+    },
+    "Ningguang" : {
+        "Geo DPS": [[["ATK%"],["Geo DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Gladiator's Finale", "Archaic Petra", "Retracing Bolide", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Archaic Petra + 2-set 18% ATK", "4-set Retracing Bolide"],["Memory of Dust", "Dodoco Tales (R5)"]],
+        "Sub-DPS": [[["ATK%"],["Geo DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "ATK%", "ER%"],["Archaic Petra", "Noblesse Oblige"],["2-set Archaic Petra + 2-set Noblesse Oblige"],["Skyward Atlas", "Solar Pearl", "The Widsith"]]
+    },
+    "Noelle" : {
+        "Geo DPS": [[["DEF%"],["Geo DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "DEF%", "ATK%"],["Retracing Bolide", "Gladiator's Finale"],["4-set Retracing Bolide", "4-set Gladiator's Finale"],["Serpent Spine","Whiteblind"]],
+        "Support": [[["DEF%"],["DEF%"],["HB"]],["DEF%", "DEF", "ER%"],["Maiden Beloved"],["4-set Maiden Beloved"],["Whiteblind"]]
+    },
+    "Geo Traveler" : {
+        "Geo DPS": [[["ATK%"],["Geo DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Retracing Bolide"],["4-set Retracing Bolide"],["Primordial jade Cutter", "Festering Desire (R5)"]],
+        "Physical DPS": [[["ATK%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "ER%"],["Pale Flame", "Gladiator's Finale", "Shimenawa", "Shimenawa's Reminiscence"],["2-set Pale Flame + 2-set 18% ATK"],["Aquila Favonia", "Blackcliff Longsword"]]
+    },
+    "Zhongli" : {
+        "Physical DPS": [[["ATK%", "HP%"],["Physical DMG%"],["CDMG%", "CR%"]],["CDMG%", "CR%", "ATK%", "HP%"],["Pale Flame"],["4-set Pale Flame"],["Crescent Pike"]],
+        "Sub-DPS": [[["ATK%", "HP%"],["Geo DMG%"],["CR%", "CDMG%"]],["CR%", "CDMG%", "HP%", "ATK%"],["Tenacity of the", "Tenacity of the Millelith", "Noblesse Oblige", "Archaic Petra"],["4-set Tenacity of the Millelith", "2-set Noblesse Oblige + 2-set Archaic Petra"],["Staff of Homa", "Deathmatch","Favonius Lance"]],
+        "Support": [[["HP%"],["HP%"],["HP%"]],["HP%", "ER%", "HP"],["Tenacity of the", "Tenacity of the Millelith"],["4-set Tenacity of the Millelith"],["Staff of Homa", "Deathmatch","Favonius Lance"]]
+    },
+    "Albedo" : {
+        "Sub-DPS": [[["DEF%"],["Geo DMG%", "DEF%"],["CR%", "CDMG%", "DEF%"]],["CR%", "CDMG%", "DEF%", "ER%"],["Archaic Petra", "Noblesse Oblige", "Tenacity of the", "Tenacity of the Millelith"],["2-set Archaic Petra + 2-set Noblesse Oblige", "4-set Tenacity of the Millelith"],["Harbinger of Dawn"]]
+    }
+}
