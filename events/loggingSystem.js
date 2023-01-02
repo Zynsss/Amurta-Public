@@ -10,7 +10,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${channel} Topic changed from **${oldTopic}** to **${newTopic}**`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [TopicUpdate]
     });
   });
@@ -22,7 +22,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${channel}'s permissions updated!`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [PermissionUpdate]
     });
   })
@@ -34,7 +34,7 @@ const {
       .setColor('#2F3136')
       .setDescription("Channel '" + oldChannel.id + "' was edited but discord-logs couldn't find what was updated...");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [unhandledGuildChannelUpdate]
     });
   });
@@ -45,7 +45,7 @@ const {
       .setTitle('User Started Boosting!')
       .setColor('#2F3136')
       .setDescription(`**${member.user.tag}** has started boosting  ${member.guild.name}!`);
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberBoost]
     });
   })
@@ -57,7 +57,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`**${member.user.tag}** has stopped boosting  ${member.guild.name}!`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberUnboost]
     });
   })
@@ -69,7 +69,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`**${member.user.tag}** got the role \`${role.name}\``);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberRoleAdd]
     });
   })
@@ -81,7 +81,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberRoleRemove]
     });
   })
@@ -93,7 +93,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${member.user.tag} changed nickname from \`${oldNickname}\` to \`${newNickname}\``);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberNicknameUpdate]
     });
   })
@@ -105,7 +105,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${member.user.tag} Joined!`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberJoined]
     });
   })
@@ -117,7 +117,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} reached the boost level ${newLevel}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [LevelUp]
     });
   })
@@ -129,7 +129,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} lost a level from ${oldLevel} to ${newLevel}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [LevelDown]
     });
   })
@@ -141,7 +141,7 @@ const {
       .setColor('#2F3136')
       .setImage(bannerURL)
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [BannerAdd]
     });
   })
@@ -153,7 +153,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} has a new afk channel ${afkChannel}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [AFKAdd]
     });
   })
@@ -165,7 +165,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} has a vanity link ${vanityURL}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VanityAdd]
     });
   })
@@ -177,7 +177,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} has removed its vanity URL ${vanityURL}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VanityRemove]
     });
   })
@@ -189,7 +189,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${guild.name} has changed its vanity URL from ${oldVanityURL} to ${newVanityURL}!`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VanityUpdated]
     });
   })
@@ -201,7 +201,7 @@ const {
       .setColor('#2F3136')
       .setDescription("This message has been pinned : " + message);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MessagePinned]
     });
   })
@@ -214,7 +214,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`Before: ${oldContent}\nAfter: ${newContent}`);
   
-    return new WebhookClient({ url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({ url: "Your webhook client"}).send({
       embeds: [MessageEdited]
     });
   })
@@ -228,10 +228,10 @@ const {
       .setDescription(`Channel: ${message.channel}\nContent: ${message.content}`);
   
     if (message.attachments.size >= 1) {
-      new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send(`${message.attachments.map(a => a.url)}`)
+      new WebhookClient({url: "Your webhook client"}).send(`${message.attachments.map(a => a.url)}`)
     }
   
-    return new WebhookClient({ url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({ url: "Your webhook client"}).send({
       embeds: [MessageDeleted]
     });
   })
@@ -243,7 +243,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " became offline!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberOffline]
     });
   })
@@ -255,7 +255,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " was offline and is now " + newStatus + "!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [MemberOnline]
     });
   })
@@ -267,7 +267,7 @@ const {
       .setColor('#2F3136')
       .setDescription(role.name + " role was at position " + oldPosition + " and now is at position " + newPosition);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [RolePositionUpdated]
     });
   })
@@ -279,7 +279,7 @@ const {
       .setColor('#2F3136')
       .setDescription(role.name + " had as permissions " + oldPermissions + " and now has as permissions " + newPermissions);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [RolePermissionUpdated]
     });
   })
@@ -291,7 +291,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${user.tag} updated avatar from [Old Avatar](${oldAvatarURL}) to [New Avatar(${newAvatarURL})]`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [AvatarUpdated]
     });
   })
@@ -303,7 +303,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${user.tag} updated thier username from ${oldUsername} to ${newUsername}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [Username]
     });
   })
@@ -315,7 +315,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${user.tag} updated thier discriminator from ${oldDiscriminator} to ${oldDiscriminator}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [Discriminator]
     });
   })
@@ -327,7 +327,7 @@ const {
       .setColor('#2F3136')
       .setDescription(`${user.tag} updated thier flags from ${oldFlags} to ${newFlags}`);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [FlagsUpdate]
     });
   })
@@ -339,7 +339,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " joined " + `${channel}` + "!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCJoined]
     });
   })
@@ -351,7 +351,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " left " + `${channel}` + "!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCLeft]
     });
   })
@@ -363,7 +363,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " left " + oldChannel.name + " and joined " + newChannel.name + "!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCSwitch]
     });
   })
@@ -375,7 +375,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " became muted! (type: " + muteType + ")");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCMute]
     });
   })
@@ -387,7 +387,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " became unmuted!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCUnmute]
     });
   })
@@ -399,7 +399,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " become deafed!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCDeafen]
     });
   })
@@ -411,7 +411,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " become undeafed!");
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [VCUndeafen]
     });
   })
@@ -423,7 +423,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " started streaming in " + voiceChannel.name);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [UserStreaming]
     });
   })
@@ -435,7 +435,7 @@ const {
       .setColor('#2F3136')
       .setDescription(member.user.tag + " stopped streaming in " + voiceChannel.name);
   
-    return new WebhookClient({url: "https://discord.com/api/webhooks/1046823173418664016/uAHSfND-I_8bjuf0HEh_46Cgcn18jFbga7qGl0jzpVmRyN6ktw2VcEGUWIxTgFwB-0Qc"}).send({
+    return new WebhookClient({url: "Your webhook client"}).send({
       embeds: [UserStoppedStreaming]
     });
   })
