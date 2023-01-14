@@ -12,10 +12,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Zynsss/ZynsBotProject.git"
+        "url": "git+https://github.com/Zynsss/Amurta-Public.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "Zyns",
     "license": "ISC",
     "dependencies": {
         "console-stamp": "^3.1.0",
